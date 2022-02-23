@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		DB7CB3F327B283AA00526915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB3F227B283AA00526915 /* AppDelegate.swift */; };
 		DB7CB3F527B283AA00526915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB3F427B283AA00526915 /* SceneDelegate.swift */; };
-		DB7CB3F727B283AA00526915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB3F627B283AA00526915 /* ViewController.swift */; };
 		DB7CB3FA27B283AA00526915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CB3F827B283AA00526915 /* Main.storyboard */; };
 		DB7CB3FD27B283AA00526915 /* XCTUITest_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB3FB27B283AA00526915 /* XCTUITest_Swift.xcdatamodeld */; };
 		DB7CB3FF27B283AE00526915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7CB3FE27B283AE00526915 /* Assets.xcassets */; };
 		DB7CB40227B283AE00526915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7CB40027B283AE00526915 /* LaunchScreen.storyboard */; };
 		DB7CB40D27B283AF00526915 /* XCTUITest_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB40C27B283AF00526915 /* XCTUITest_SwiftTests.swift */; };
 		DB7CB41827B283AF00526915 /* XCTUITest_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB41727B283AF00526915 /* XCTUITest_SwiftUITests.swift */; };
+		DB7CB42927B2D09000526915 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7CB42827B2D09000526915 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		DB7CB3EF27B283AA00526915 /* XCTUITest_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTUITest_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7CB3F227B283AA00526915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB7CB3F427B283AA00526915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB7CB3F627B283AA00526915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB7CB3F927B283AA00526915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB7CB3FC27B283AA00526915 /* XCTUITest_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XCTUITest_Swift.xcdatamodel; sourceTree = "<group>"; };
 		DB7CB3FE27B283AE00526915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		DB7CB41327B283AF00526915 /* XCTUITest_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTUITest_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7CB41727B283AF00526915 /* XCTUITest_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTUITest_SwiftUITests.swift; sourceTree = "<group>"; };
 		DB7CB41927B283AF00526915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7CB42827B2D09000526915 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DB7CB4D827B3E8AF00526915 /* XCTUITest_Swift-UITestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "XCTUITest_Swift-UITestPlan.xctestplan"; sourceTree = "<group>"; };
+		DB7CB4DC27B3ED1F00526915 /* TestPlan-UnitTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TestPlan-UnitTests.xctestplan"; sourceTree = "<group>"; };
+		DB7CB4E127B3EE3200526915 /* Main-TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Main-TestPlan.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +106,12 @@
 			children = (
 				DB7CB3F227B283AA00526915 /* AppDelegate.swift */,
 				DB7CB3F427B283AA00526915 /* SceneDelegate.swift */,
-				DB7CB3F627B283AA00526915 /* ViewController.swift */,
+				DB7CB42827B2D09000526915 /* SignupViewController.swift */,
 				DB7CB3F827B283AA00526915 /* Main.storyboard */,
 				DB7CB3FE27B283AE00526915 /* Assets.xcassets */,
 				DB7CB40027B283AE00526915 /* LaunchScreen.storyboard */,
 				DB7CB40327B283AE00526915 /* Info.plist */,
+				DB7CB4E027B3EE1600526915 /* Main-TestPlan */,
 				DB7CB3FB27B283AA00526915 /* XCTUITest_Swift.xcdatamodeld */,
 			);
 			path = XCTUITest_Swift;
@@ -116,6 +120,7 @@
 		DB7CB40B27B283AF00526915 /* XCTUITest_SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				DB7CB4DC27B3ED1F00526915 /* TestPlan-UnitTests.xctestplan */,
 				DB7CB40C27B283AF00526915 /* XCTUITest_SwiftTests.swift */,
 				DB7CB40E27B283AF00526915 /* Info.plist */,
 			);
@@ -125,10 +130,19 @@
 		DB7CB41627B283AF00526915 /* XCTUITest_SwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
+				DB7CB4D827B3E8AF00526915 /* XCTUITest_Swift-UITestPlan.xctestplan */,
 				DB7CB41727B283AF00526915 /* XCTUITest_SwiftUITests.swift */,
 				DB7CB41927B283AF00526915 /* Info.plist */,
 			);
 			path = XCTUITest_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		DB7CB4E027B3EE1600526915 /* Main-TestPlan */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CB4E127B3EE3200526915 /* Main-TestPlan.xctestplan */,
+			);
+			path = "Main-TestPlan";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7CB3F727B283AA00526915 /* ViewController.swift in Sources */,
 				DB7CB3FD27B283AA00526915 /* XCTUITest_Swift.xcdatamodeld in Sources */,
+				DB7CB42927B2D09000526915 /* SignupViewController.swift in Sources */,
 				DB7CB3F327B283AA00526915 /* AppDelegate.swift in Sources */,
 				DB7CB3F527B283AA00526915 /* SceneDelegate.swift in Sources */,
 			);

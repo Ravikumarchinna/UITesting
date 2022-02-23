@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "227BB4BB-6D92-44D1-998A-C8C848FFA18A",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XCTUITest_Swift.xcodeproj",
+        "identifier" : "DB7CB40727B283AF00526915",
+        "name" : "XCTUITest_SwiftTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:XCTUITest_Swift.xcodeproj",
+        "identifier" : "DB7CB41227B283AF00526915",
+        "name" : "XCTUITest_SwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

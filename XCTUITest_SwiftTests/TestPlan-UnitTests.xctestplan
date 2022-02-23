@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "8DD43FED-0BAA-45F8-8F61-FFE414CBB396",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XCTUITest_Swift.xcodeproj",
+        "identifier" : "DB7CB40727B283AF00526915",
+        "name" : "XCTUITest_SwiftTests"
+      }
+    }
+  ],
+  "version" : 1
+}

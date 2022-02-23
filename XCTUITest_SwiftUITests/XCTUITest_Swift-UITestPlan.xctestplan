@@ -1,0 +1,47 @@
+{
+  "configurations" : [
+    {
+      "id" : "8707594A-6000-4D18-BCA5-5A93EED27896",
+      "name" : "TestServerURL1",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl",
+            "value" : "Give your Url Here Environment"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "6A9487AD-7EE2-4725-AE8B-E455CBFD08E9",
+      "name" : "TestServerURL2",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl",
+            "value" : "Give Test URl Here"
+          }
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XCTUITest_Swift.xcodeproj",
+      "identifier" : "DB7CB3EE27B283AA00526915",
+      "name" : "XCTUITest_Swift"
+    },
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:XCTUITest_Swift.xcodeproj",
+        "identifier" : "DB7CB41227B283AF00526915",
+        "name" : "XCTUITest_SwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
